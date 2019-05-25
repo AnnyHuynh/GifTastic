@@ -1,5 +1,7 @@
 body{
   background-image: url(../images/background.jpeg);
+  overflow: hidden;
+  height: auto;
 }
 @media only screen and (min-width: 992px) {
 
@@ -55,4 +57,9 @@ button{
   display: inline-block;
   margin-left: 15px;
 }
+#gifs-appear-here{
+  height: 100vh;
+}
+
+
 

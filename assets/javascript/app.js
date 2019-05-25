@@ -51,7 +51,7 @@ $(document).on("click", ".country", function() {
 
       var results = response.data;
 
-      for (var j = 0; j < results.length; j++) {
+      for (var j = 0; j < 8; j++) {
 
         var countryDiv = $("<div>");
         countryDiv.addClass("countryDiv");
