@@ -38,7 +38,7 @@ $(document).on("click", ".country", function() {
   var country = $(this).attr("data-name");
 
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    country + "&api_key=dc6zaTOxFJmzC&limit=10";
+    country + "&api_key=sEymYj4PwxXGjUySDksWLIAhEaJ7DrbP";
 
   $.ajax({
     url: queryURL,
